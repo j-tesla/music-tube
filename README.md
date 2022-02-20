@@ -2,6 +2,8 @@
 
 A music video display application which periodically updated the videos from the YouTube Data API
 
+Server without the database [app](/app) directory in this repo is a subtree: [j-tesla/music-tube-server](https://github.com/j-tesla/music-tube-server)
+
 # Stack used
 
 - Backend with [Express framework](https://expressjs.com/) for [Node.js](https://nodejs.org/en/)
