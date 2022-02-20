@@ -4,13 +4,11 @@ A music video display application which periodically updated the videos from the
 
 This repo is just a workflow with [docker-compose.yml](/docker-compose.yml) to run the Music Tube server with a database connection.
 
-Server without the database [app](/app) directory in this repo is a subtree: [j-tesla/music-tube-server](https://github.com/j-tesla/music-tube-server)
-
 ## Images
 
-+   Official image for MongoDB: [mongo](https://hub.docker.com/_/mongo)
-+   Music Tube server: [jaypsy/music-tube-server](https://hub.docker.com/r/jaypsy/music-tube-server)
-    Source: [j-tesla/music-tube-server](https://github.com/j-tesla/music-tube-server)
++ Official image for MongoDB: [mongo](https://hub.docker.com/_/mongo)
++ Music Tube server: [jaypsy/music-tube-server](https://hub.docker.com/r/jaypsy/music-tube-server)   
+  Source: [j-tesla/music-tube-server](https://github.com/j-tesla/music-tube-server)
 
 For exact dependencies used frontend and backend, checkout [frontend's package.json](/app/frontend/package.json) and [backend's package.json](/app/backend/package.json)
 
